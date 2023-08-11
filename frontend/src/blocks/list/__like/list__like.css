@@ -1,0 +1,16 @@
+.list__like {
+    background-image: url('../../../images/list__like.svg');
+    margin-right: 20px;
+    width: 22px;
+    height: 19px;
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.list__like:hover {
+    opacity: 0.5;
+}

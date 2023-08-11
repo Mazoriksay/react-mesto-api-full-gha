@@ -1,0 +1,18 @@
+.list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    justify-content: center;
+    column-gap: 1.328125vw;
+    row-gap: 1.5625vw;
+}
+
+@media screen and (max-width: 900px) {
+    .list {
+        display: block;
+    }
+    
+}

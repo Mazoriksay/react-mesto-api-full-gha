@@ -1,0 +1,12 @@
+.list__button-image {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background:none;
+    width: 282px;
+    height: 282px;
+    padding:0;
+    margin:0;
+}

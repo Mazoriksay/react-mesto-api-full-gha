@@ -1,0 +1,15 @@
+.auth__crossing {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.auth__crossing:hover {
+    opacity: 0.6;
+}

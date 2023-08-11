@@ -1,0 +1,17 @@
+.list__card {
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+@media screen and (max-width: 900px) {
+    .list__card {
+        max-width: 282px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .list__card:first-of-type {
+        margin-top: 0;
+    }
+    
+}
