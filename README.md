@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 51.250.83.207
 
-Frontend https://...
+Frontend https://mesto-skifenok.nomoreparties.co
 
-Backend https://...
+Backend https://api.mesto-skifenok.nomoreparties.co
