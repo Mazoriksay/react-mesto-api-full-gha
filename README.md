@@ -5,12 +5,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/Mazoriksay/react-mesto-api-full-gha
 
 ## Ссылки на проект
 
 IP-адрес 51.250.83.207
 
-Frontend https://mesto-skifenok.nomoreparties.co
+Frontend https://mesto-skifenok.nomoreparties.co/
 
-Backend https://api.mesto-skifenok.nomoreparties.co
+Backend https://api.mesto-skifenok.nomoreparties.co/
