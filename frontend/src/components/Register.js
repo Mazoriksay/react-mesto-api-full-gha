@@ -1,5 +1,4 @@
 import { useState }from "react";
-import Header from "./Header";
 import Auth from "./Auth"
 import { auth } from "../utils/AuthApi"
 import { Link, useNavigate } from "react-router-dom";
@@ -32,7 +31,7 @@ function Register({ openInfoTooltip, insertAlarm }) {
         .catch(() => {
             insertAlarm({logo: notOk, text: 'Что-то пошло не так! Попробуйте ещё раз.'});
         })
-        .finally(() => openInfoTooltip())
+        .finally(() => openInfoTooltip());
     }
 
     return (

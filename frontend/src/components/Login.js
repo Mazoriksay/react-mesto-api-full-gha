@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Header from './Header';
 import Auth from './Auth';
-import { auth } from '../utils/AuthApi'
+import { auth } from '../utils/AuthApi';
+import notOk from "../images/krestik.svg";
 
 
-function Login({handleLogin}) {
+function Login({ handleLogin, openInfoTooltip, insertAlarm }) {
     const [formValue, setFormValue] = useState({
         email: '',
         password: ''
@@ -33,7 +33,10 @@ function Login({handleLogin}) {
             navigate('/', {replace: true});   
      
         })
-        .catch(err => console.log(err));
+        .catch(() => {
+            insertAlarm({logo: notOk, text: 'Что-то пошло не так! Попробуйте ещё раз.'});
+            openInfoTooltip();
+        });
     }
 
     return (

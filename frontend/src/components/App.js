@@ -55,7 +55,7 @@ function App() {
     }, []);
 
     const handleTokenCheck = () => {
-        const jwt = localStorage.getItem('jwt');
+        const jwt = localStorage.getItem('userId');
         if (jwt) {
             auth.checkToken(jwt).then((res) => {
                 if (res) {
@@ -77,7 +77,7 @@ function App() {
     }
 
     const signOut = () => {
-        localStorage.removeItem('jwt');
+        localStorage.removeItem('userId');
         setIsLoggedIn(false);
     }
 
@@ -186,7 +186,7 @@ function App() {
                         />
                         <Route 
                             path='sign-in'
-                            element={<Login  handleLogin={handleLogin} />}
+                            element={<Login  handleLogin={handleLogin} openInfoTooltip={handleInfoTooltipOpen} insertAlarm={insertAlarm} />}
                         />
                         <Route
                             path='*'
